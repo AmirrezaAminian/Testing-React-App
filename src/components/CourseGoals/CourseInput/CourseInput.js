@@ -22,7 +22,9 @@ const CourseInput = (props) => {
     }
     props.onAddGoal(enteredValue);
   };
-
+  
+ 
+   
   return (
     <form onSubmit={formSubmitHandler}>
       <div className={`form-control ${!isValid ? 'invalid' : ''}`}>
